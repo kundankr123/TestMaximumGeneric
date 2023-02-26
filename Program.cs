@@ -18,19 +18,27 @@
             //Console.WriteLine("The maximum of the given three numbers is : " + max);
 
 
-            Console.WriteLine("Maximum using CompareTo() Mathod");
-            Console.WriteLine("Enter 1st String: ");
-            string a = Console.ReadLine();
-            Console.WriteLine("Enter 2nd String: ");
-            string b = Console.ReadLine();
-            Console.WriteLine("Enter 3rd String: ");
-            string c = Console.ReadLine();
+            //Console.WriteLine("Maximum using CompareTo() Mathod");
+            //Console.WriteLine("Enter 1st String: ");
+            //string a = Console.ReadLine();
+            //Console.WriteLine("Enter 2nd String: ");
+            //string b = Console.ReadLine();
+            //Console.WriteLine("Enter 3rd String: ");
+            //string c = Console.ReadLine();
 
 
 
-            string max = Maximumstring.MaximumString(a, b, c);
+            //string max = Maximumstring.MaximumString(a, b, c);
 
-            Console.WriteLine("The maximum of the given three String is : " + max);
+            //Console.WriteLine("The maximum of the given three String is : " + max);
+
+
+            Console.WriteLine("Integer Values");
+            GenericMaximum.Compare<int>(10, 9, 111);
+            Console.WriteLine("Double Values");
+            GenericMaximum.Compare<double>(1.1, 2.2, 3.3);
+            Console.WriteLine("String Values");
+            GenericMaximum.Compare<string>("abc", "bca", "cba");
         }
     }
 }
